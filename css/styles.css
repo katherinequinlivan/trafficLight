@@ -1,0 +1,71 @@
+body{
+	background-color: 	#87CEFA; 
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 25pt;
+	color: white;
+	font-family: 'SeasideResortNF', sans-serif; 
+	background-color: #6f8090;
+}
+
+#bigOrangeSquare {
+	background-color: orange;
+	height: 350px;
+	margin-left: 42%;
+	margin-right: 42%;
+	width: 16%;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+.light {
+	border: 3px solid black;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin-left: 45.4%;
+	position: absolute;
+}
+
+#top {
+	top: 100px;
+	background-color: darkred;
+}
+
+#middle {
+	top: 215px;
+	background-color: gold;
+}
+
+#bottom {
+	top: 330px;
+	background-color: forestgreen;
+}
+
+.myButton {
+	border: 4px solid white;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	font-size: 15pt;
+	border-radius: 15px;
+ 	float: left;
+	color: 	#596673; 
+	font-family: 'SeasideResortNF', sans-serif;
+	margin-top: 20px;
+
+}
+
+.buttonHolder {
+	margin-left: 29.2%;
+}
+
+
+@font-face {
+	font-family: 'SeasideResortNF';
+	src: url("../fonts/SeasideResortNF/SEASRN__.ttf"); 
+}
